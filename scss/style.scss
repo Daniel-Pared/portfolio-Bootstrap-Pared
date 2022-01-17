@@ -312,9 +312,8 @@ a {
 
     fieldset {
         margin: $S1 auto $half auto;
-        padding: 2rem;
         width: 80%;
-        @include brd(25px);
+        @include brd(20px);
 
         label {
             display: block;
@@ -323,29 +322,13 @@ a {
             font-size: 1em;
         }
 
-        input {
-            height: 30px;
-        }
-
-        .input-row {
-            width: 100%;
-        }
-
         #subject {
             width: 100%;
         }
 
-        textarea {
-            width:100%;
-            height: 100px;
-        }
-
         .submit-btn {
-            display: block;
-            margin: $S1 auto $half auto;
             @include font;
             font-size:  1em;
-            padding: $half $S1;
             letter-spacing: 5px;
             @include brd(15px);
             background: none;

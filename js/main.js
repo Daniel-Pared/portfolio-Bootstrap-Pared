@@ -25,21 +25,21 @@ function newURL() {
 };
 
 
-//Change the language website.
+//Change the language website. [DISABLED]
 
-langSelect.addEventListener('click', changeLang);
+//langSelect.addEventListener('click', changeLang);
 
-function changeLang() {
-    asingValues();
-    newURL();
+//function changeLang() {
+    //asingValues();
+    //newURL();
 
-    if  (langSelect.checked === true) {
-        window.location.href = `${route}/${fileEs}/${page}`;
-    }
-    else if (langSelect.checked == false) {
-        window.location.href = `${route}/${filePage}/${page}`;
-    }
-};
+    //if  (langSelect.checked === true) {
+        //window.location.href = `${route}/${fileEs}/${page}`;
+    //}
+    //else if (langSelect.checked == false) {
+        //window.location.href = `${route}/${filePage}/${page}`;
+    //}
+//};
 
 
 // Menu activation.

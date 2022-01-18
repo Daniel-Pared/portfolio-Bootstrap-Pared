@@ -44,8 +44,7 @@ header {
         }
     }
 
-    #down-header {
-        display: none;
+    #downHeader {
         position: fixed;
         top: 50px;
         width: 100%;
@@ -199,11 +198,20 @@ footer {
     @include font;
     font-size: 2em;
     text-align: center;
+    @include anim(1200ms);
+    animation-delay: 500ms;
 }
 
 a {
     @include font;
     font-size: 1em;
+    letter-spacing: 5px;
+}
+
+span {
+    @include font;
+    font-size: 1rem;
+    letter-spacing: 5px;
 }
 
 .btn-container {
@@ -298,6 +306,21 @@ a {
 
 /***** PROJECTS *****/
 
+#card-1 {
+    @include anim(1200ms);
+    animation-delay: 550ms;
+}
+
+#card-2 {
+    @include anim(1200ms);
+    animation-delay: 600ms;
+}
+
+#card-2 {
+    @include anim(1200ms);
+    animation-delay: 650ms;
+}
+
 
 
 /***** CONTACT *****/
@@ -314,6 +337,8 @@ a {
         margin: $S1 auto $half auto;
         width: 80%;
         @include brd(20px);
+        @include anim(1200ms);
+        animation-delay: 600ms;
 
         label {
             display: block;
@@ -321,29 +346,13 @@ a {
             @include font;
             font-size: 1em;
         }
-
-        #subject {
-            width: 100%;
-        }
-
-        .submit-btn {
-            @include font;
-            font-size:  1em;
-            letter-spacing: 5px;
-            @include brd(15px);
-            background: none;
-        }
     }
 }
 
 .contact-footer {
-    position: absolute;
-    bottom: 2%;
-    margin: $S1 0;
-    width: 100%;
-    background: none;
+    @include anim(1500ms);
+    animation-delay: 700ms;
 }
-
 
 
 /***** ANIMATION *****/
@@ -356,6 +365,7 @@ a {
         opacity: 1;
     }
 }
+
 
 /***** MEDIA QUERIES *****/
 

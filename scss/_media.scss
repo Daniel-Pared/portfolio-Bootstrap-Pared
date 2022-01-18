@@ -10,13 +10,11 @@
         
             .social-media-up {
                 display: flex;
-                margin-right: 2em;
-                width: 90px;
-                justify-content: space-between;
+                margin-right: 1rem;
             }
         }
     
-        #down-header {
+        #downHeader {
             height: 165px;
         
             .social-media {
@@ -71,12 +69,6 @@
         margin-top: 10rem;
         margin-bottom: 3rem;
     }
-    
-    /*.contact-footer {
-        position: relative;
-        margin-top: 2rem;
-        margin-bottom: $half;
-    }*/
 }
 
 @mixin desktop {
@@ -112,7 +104,6 @@
     }
 
     .contact-footer {
-        position: relative;
         margin-top: 4rem;
         margin-bottom: $S1;
     }
